@@ -2,4 +2,4 @@
 
 The exact request handed to Forge to build this app:
 
-> [web] custom domain: ember.tmali.dev
+> [web] custom domain: (cleared)
