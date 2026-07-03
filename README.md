@@ -1,10 +1,10 @@
-# Web Build A Modern
+# Web Change The Accent Color From Amber T
 
 Built by **Forge**, a local AI app builder.
 
 ## What was requested
 
-> [web] Build a modern, beautiful landing page for a coffee roastery called Ember Coffee. A hero section with the brand name, a warm tagline, and a call-to-action button; a section of three featured roasts as cards (name, tasting notes, price); a short 'Our Story' about section; and a footer. Warm premium palette (deep espresso, cream, amber accent), elegant typography, generous spacing, inline SVG coffee-bean/cup icons. Fully self-contained static HTML/CSS/JS — no external CDNs or remote images.
+> [web] Change the accent color from amber to a deep forest green throughout (buttons, links, headings, highlights), and ADD a "Stay in the Loop" newsletter signup section just before the footer with a short blurb, an email input, and a Subscribe button styled in the new green. Keep all existing content, layout, and copy exactly as it is — this is a small targeted change, not a redesign.
 
 ---
 

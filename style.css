@@ -3,8 +3,8 @@
   /* Warm coffee palette */
   --coffee-dark: #2b1d16;
   --coffee-cream: #f5ede1;
-  --coffee-amber: #c9822f;
-  --coffee-light: #e8d7c4;
+  --forest-green: #1b4a32;
+  --forest-green: #1b4a32;
   
   /* Typography */
   --serif-font: 'Georgia', 'Times New Roman', serif;
@@ -78,7 +78,7 @@ body {
 .logo-svg {
   width: 32px;
   height: 32px;
-  fill: var(--coffee-amber);
+  fill: var(--coffee-green);
 }
 
 .logo-text {
@@ -100,7 +100,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--coffee-amber);
+  color: var(--coffee-green);
 }
 
 .nav-link::after {
@@ -110,7 +110,7 @@ body {
   left: 0;
   width: 0;
   height: 1px;
-  background-color: var(--coffee-amber);
+  background-color: var(--coffee-green);
   transition: width 0.3s ease;
 }
 
@@ -156,22 +156,22 @@ body {
 
 .cta-button {
   display: inline-block;
-  background-color: var(--coffee-amber);
+  background-color: var(--coffee-green);
   color: white;
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid var(--coffee-amber);
-  box-shadow: 0 4px 15px rgba(201, 130, 47, 0.3);
+  border: 2px solid var(--coffee-green);
+  box-shadow: 0 4px 15px rgba(46, 92, 55, 0.3);
 }
 
 .cta-button:hover {
   background-color: transparent;
-  color: var(--coffee-amber);
+  color: var(--coffee-green);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(201, 130, 47, 0.4);
+  box-shadow: 0 6px 20px rgba(46, 92, 55, 0.4);
 }
 
 .hero-decoration {
@@ -191,7 +191,7 @@ body {
   left: 20%;
   width: 150px;
   height: 150px;
-  fill: var(--coffee-amber);
+  fill: var(--coffee-green);
   animation: float 6s ease-in-out infinite;
 }
 
@@ -201,7 +201,7 @@ body {
   right: 20%;
   width: 100px;
   height: 100px;
-  fill: var(--coffee-amber);
+  fill: var(--coffee-green);
   opacity: 0.3;
   animation: float 8s ease-in-out infinite reverse;
 }
@@ -272,7 +272,7 @@ body {
 .bean-icon {
   width: 60px;
   height: 60px;
-  fill: var(--coffee-amber);
+  fill: var(--coffee-green);
 }
 
 .roast-name {
@@ -294,7 +294,7 @@ body {
   font-family: var(--serif-font);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--coffee-amber);
+  color: var(--coffee-green);
   margin: 0;
 }
 
@@ -303,6 +303,29 @@ body {
   padding: var(--spacing-xl) var(--spacing-sm);
   background-color: var(--coffee-cream);
   position: relative;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background-color: white;
+  text-align: center;
+}
+
+.newsletter-form {
+  max-width: 500px;
+  margin: var(--spacing-lg) auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.newsletter-form input {
+  padding: var(--spacing-sm);
+  border: 1px solid var(--coffee-light);
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .story-content {
@@ -327,7 +350,7 @@ body {
 .divider-svg {
   width: 150px;
   height: 20px;
-  fill: var(--coffee-amber);
+  fill: var(--coffee-green);
   opacity: 0.7;
 }
 
