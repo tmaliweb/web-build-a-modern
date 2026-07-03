@@ -103,15 +103,20 @@ body {
   color: var(--coffee-green);
 }
 
-.nav-link::after {
+.nav-link.active {
+  font-weight: 600;
+  color: var(--coffee-dark);
+}
+
+.nav-link.active::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   left: 0;
-  width: 0;
-  height: 1px;
-  background-color: var(--coffee-green);
-  transition: width 0.3s ease;
+  width: 100%;
+  height: 2px;
+  background-color: var(--coffee-dark);
+  transition: all 0.3s ease;
 }
 
 .nav-link:hover::after {
@@ -121,7 +126,7 @@ body {
 /* Hero Section */
 .hero {
   position: relative;
-  min-height: 80vh;
+  min-height: 620px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,22 +161,22 @@ body {
 
 .cta-button {
   display: inline-block;
-  background-color: var(--coffee-green);
-  color: white;
-  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: #2b1a12;
+  color: #f5ede2;
+  padding: 14px 32px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid var(--coffee-green);
-  box-shadow: 0 4px 15px rgba(46, 92, 55, 0.3);
+  border: 2px solid #2b1a12;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .cta-button:hover {
   background-color: transparent;
-  color: var(--coffee-green);
+  color: #2b1a12;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(46, 92, 55, 0.4);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
 .hero-decoration {
@@ -250,12 +255,13 @@ body {
 .roast-card {
   background-color: var(--coffee-cream);
   border-radius: 12px;
-  padding: var(--spacing-lg);
+  padding: 24px;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   position: relative;
   overflow: hidden;
+  padding-bottom: 48px;
 }
 
 .roast-card:hover {
@@ -270,9 +276,9 @@ body {
 }
 
 .bean-icon {
-  width: 60px;
-  height: 60px;
-  fill: var(--coffee-green);
+  width: 40px;
+  height: 40px;
+  fill: #2b1a12;
 }
 
 .roast-name {
