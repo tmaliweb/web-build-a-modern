@@ -1,10 +1,10 @@
-# Web Change The Hero Tagline To Exactly
+# Web Rollback To Deploy 7D60C5C
 
 Built by **Forge**, a local AI app builder.
 
 ## What was requested
 
-> [web] Change the hero tagline to exactly: Small-batch roasts, kindled slowly, poured with care. Keep everything else exactly as it is.
+> [web] ROLLBACK to deploy 7d60c5c
 
 ---
 
