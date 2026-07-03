@@ -1,10 +1,10 @@
-# Web Change The Accent Color From Amber T
+# Web Add A Simple Site Footer At The Very
 
 Built by **Forge**, a local AI app builder.
 
 ## What was requested
 
-> [web] Change the accent color from amber to a deep forest green throughout (buttons, links, headings, highlights), and ADD a "Stay in the Loop" newsletter signup section just before the footer with a short blurb, an email input, and a Subscribe button styled in the new green. Keep all existing content, layout, and copy exactly as it is — this is a small targeted change, not a redesign.
+> [web] Add a simple site footer at the very bottom of the page (after the newsletter section) containing the centered text "© 2026 Ember Coffee Roasters · hello@embercoffee.co", styled in the deep forest green accent. This is a small additive change — keep ALL existing content, sections, colors, and layout exactly as they are.
 
 ---
 
