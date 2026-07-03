@@ -2,4 +2,4 @@
 
 The exact request handed to Forge to build this app:
 
-> [web] clean green+newsletter+footer, .nojekyll for robust Pages deploy
+> [web] Change the hero tagline to exactly: Small-batch roasts, kindled slowly, poured with care. Keep everything else exactly as it is.
