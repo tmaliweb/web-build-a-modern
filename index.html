@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ember Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#home" class="logo-link">
+        <svg class="logo-svg" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M24 12c-6.63 0-12 5.37-12 12 0 2.21.69 4.21 1.83 5.83L12 24v12h12v-6h4v-6h6v-6h-6V12H24z" fill="currentColor"/>
+          <path d="M24 12c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm0 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Ember Coffee</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#roasts" class="nav-link">Roasts</a>
+        <a href="#our-story" class="nav-link">Our Story</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Ember Coffee</h1>
+      <p class="hero-tagline">Small-batch roasts, kindled slowly.</p>
+      <a href="#roasts" class="cta-button">Explore Our Roasts</a>
+    </div>
+    <div class="hero-decoration">
+      <svg class="bean-svg" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50,15 C65,20 75,35 70,50 C65,65 50,80 30,75 C10,70 15,50 20,35 C25,20 40,10 50,15 Z" fill="currentColor"/>
+        <path d="M40,25 C45,30 50,35 55,30 C60,25 65,30 60,35 C55,40 50,45 45,40 C40,35 35,30 40,25 Z" fill="currentColor"/>
+        <path d="M30,40 C35,45 40,50 45,45 C50,40 55,45 50,50 C45,55 40,60 35,55 C30,50 25,45 30,40 Z" fill="currentColor"/>
+        <path d="M60,40 C65,45 70,50 75,45 C80,40 85,45 80,50 C75,55 70,60 65,55 C60,50 55,45 60,40 Z" fill="currentColor"/>
+        <path d="M50,60 C55,65 60,70 65,65 C70,60 75,65 70,70 C65,75 60,80 55,75 C50,70 45,65 50,60 Z" fill="currentColor"/>
+      </svg>
+      <svg class="steam-svg" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M30,80 Q40,60 50,70 Q60,80 70,60 Q80,40 90,50 Q80,60 70,70 Q60,80 50,70 Q40,60 30,80 Z" fill="currentColor" opacity="0.6"/>
+        <path d="M20,85 Q30,65 40,75 Q50,85 60,65 Q70,45 80,55 Q70,65 60,75 Q50,85 40,75 Q30,65 20,85 Z" fill="currentColor" opacity="0.4"/>
+        <path d="M10,90 Q20,70 30,80 Q40,90 50,70 Q60,50 70,60 Q60,70 50,80 Q40,90 30,80 Q20,70 10,90 Z" fill="currentColor" opacity="0.2"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Featured Roasts Section -->
+  <section id="roasts" class="roasts-section">
+    <div class="section-header">
+      <h2 class="section-title">Featured Roasts</h2>
+      <p class="section-subtitle">Small-batch, slow-roasted with care</p>
+    </div>
+    <div class="roasts-grid">
+      <!-- Roast Card 1 -->
+      <article class="roast-card">
+        <div class="card-icon">
+          <svg class="bean-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 12c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm0 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="roast-name">Dawn Amber</h3>
+        <p class="tasting-notes">Caramel, toasted almond, cocoa</p>
+        <p class="price">$18</p>
+      </article>
+
+      <!-- Roast Card 2 -->
+      <article class="roast-card">
+        <div class="card-icon">
+          <svg class="bean-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 12c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm0 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="roast-name">Ember Dark</h3>
+        <p class="tasting-notes">Dark chocolate, molasses, smoke</p>
+        <p class="price">$19</p>
+      </article>
+
+      <!-- Roast Card 3 -->
+      <article class="roast-card">
+        <div class="card-icon">
+          <svg class="bean-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 12c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm0 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="roast-name">Cream Roast</h3>
+        <p class="tasting-notes">Honey, hazelnut, vanilla</p>
+        <p class="price">$17</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Our Story Section -->
+  <section id="our-story" class="story-section">
+    <div class="section-header">
+      <h2 class="section-title">Our Story</h2>
+    </div>
+    <div class="story-content">
+      <p>At Ember Coffee, we believe that exceptional coffee begins with passion and patience. Our journey started in a small roastery where we discovered the art of slow, careful roasting.</p>
+      <p>We source our green beans directly from farmers who share our commitment to quality and sustainability. Each batch is roasted in small quantities to ensure consistency and preserve the unique characteristics of every origin.</p>
+      <p>Our roasting process is a blend of traditional techniques and modern precision, allowing us to bring out the best in each bean. The result is a collection of coffees that tell a story – one that reflects the care, craftsmanship, and dedication we put into every cup.</p>
+    </div>
+    <div class="story-divider">
+      <svg class="divider-svg" viewBox="0 0 100 10" aria-hidden="true">
+        <path d="M0,5 Q25,0 50,5 T100,5" fill="currentColor"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <svg class="logo-svg" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M24 12c-6.63 0-12 5.37-12 12 0 2.21.69 4.21 1.83 5.83L12 24v12h12v-6h4v-6h6v-6h-6V12H24z" fill="currentColor"/>
+          <path d="M24 12c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm0 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Ember Coffee</span>
+      </div>
+      <p class="footer-tagline">Small-batch roasts, kindled slowly.</p>
+      <nav class="footer-nav">
+        <a href="#roasts" class="nav-link">Roasts</a>
+        <a href="#our-story" class="nav-link">Our Story</a>
+      </nav>
+      <p class="copyright">&copy; 2023 Ember Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

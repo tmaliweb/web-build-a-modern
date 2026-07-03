@@ -1,0 +1,16 @@
+# Build outputs + caches — keep the app's repo source-only (the APK is served by Forge).
+.gradle/
+build/
+app/build/
+# Forge capability recipes — local reference snippets, not app source.
+.recipes/
+*.apk
+*.class
+.idea/
+local.properties
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+instance/
+*.sqlite
