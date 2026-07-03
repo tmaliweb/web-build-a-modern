@@ -1,10 +1,10 @@
-# Web Deep Forest Green Accent Newsletter
+# Web Clean Green Newsletter Footer
 
 Built by **Forge**, a local AI app builder.
 
 ## What was requested
 
-> [web] deep forest green accent + newsletter section + footer (repaired, deduplicated)
+> [web] clean green+newsletter+footer, .nojekyll for robust Pages deploy
 
 ---
 
