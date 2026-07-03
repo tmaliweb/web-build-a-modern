@@ -1,10 +1,10 @@
-# Web Rollback To Deploy 35A7775
+# Web Custom Domain
 
 Built by **Forge**, a local AI app builder.
 
 ## What was requested
 
-> [web] ROLLBACK to deploy 35a7775
+> [web] custom domain: ember.tmali.dev
 
 ---
 
